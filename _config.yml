@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Data at Sea
+description: A community-driven, GitHub Pages-hosted resource aggregate focused on deep ocean science data management across the expedition lifecycle. Built for easy community contribution via Discussion, Issues, and Pull Requests 
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://schmidtocean.github.io/data-at-sea
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+#aux_links:
+#  Template Repository: https://github.com/just-the-docs/just-the-docs-template
