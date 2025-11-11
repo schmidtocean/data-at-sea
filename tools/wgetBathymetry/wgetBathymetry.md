@@ -14,13 +14,16 @@ jupyter:
 
 # WGET Bathymetry
 
-## Interface 
-
 Bathymetry compilation is available via [GMRT](https://www.gmrt.org) using the [GMRT MapTool](https://www.gmrt.org/GMRTMapTool/) and from [GeoMapApp](https://www.geomapapp.org/)
 
-## Programmatic
-
 Direct downloads are available programmatically using the [GMRT Webservices](https://www.gmrt.org/services/index.php) as NetCDF grid files, ESRI ASCII, or GeoTIFF. Below is a python snippet to automate URL extraction from GMRT Webservices.
+
+# Install dependencies
+
+```python
+# (Colab and Binder users run this cell first)
+!pip install -q -r https://raw.githubusercontent.com/schmidtocean/data-at-sea/main/tools/wgetBathymetry/requirements.txt
+```
 
 ### GMRT NetCDF Grid via Python and WGET
 
