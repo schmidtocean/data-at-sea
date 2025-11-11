@@ -14,7 +14,7 @@ Download bathymetry data for your cruise area.
 
 **Run online:**  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/schmidtocean/data-at-sea/blob/main/tools/wgetBathymetry/wgetBathymetry.ipynb)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/schmidtocean/data-at-sea/main?filepath=tools/wgetBathymetry/wgetBathymetry.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/schmidtocean/data-at-sea/main?labpath=tools/wgetBathymetry/wgetBathymetry.ipynb)
 
 **View on GitHub:** [schmidtocean/data-at-sea](https://github.com/schmidtocean/data-at-sea/blob/main/tools/wgetBathymetry/wgetBathymetry.ipynb)
 
