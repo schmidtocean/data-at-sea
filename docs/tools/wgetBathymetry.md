@@ -6,7 +6,7 @@ parent: Tools
 
 # wgetBathymetry
 
-Download bathymetry data for your cruise area.
+Download bathymetry data for your cruise area using GMRT web services.
 
 ## Get the Notebook
 
