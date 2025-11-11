@@ -1,6 +1,7 @@
 ---
 title: Discussion
 nav_order: 9
+layout: default
 ---
 
 # Community Discussion
