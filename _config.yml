@@ -1,6 +1,7 @@
 title: Data at Sea
 description: A community-driven, GitHub Pages-hosted resource aggregate focused on deep ocean science data management across the expedition lifecycle. Built for easy community contribution via Discussion, Issues, and Pull Requests
 theme: just-the-docs
+color_scheme: ocean
 
 url: https://schmidtocean.github.io/data-at-sea
 
