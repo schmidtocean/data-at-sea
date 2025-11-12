@@ -6,12 +6,13 @@ $ocean-calm: #2d7a8f;        // Medium teal
 $ocean-light: #4a9db5;       // Light blue
 $ocean-mist: #e8f4f8;        // Very light blue
 $ocean-foam: #f0f8fa;        // Pale blue-white
-$coral-accent: #ff6b6b;      // Coral red
+$coral-accent: #ff6b6b;      // Coral red#
 $coral-soft: #ff8787;        // Lighter coral
 $coral-pale: #ffe0e0;        // Very light coral
+$white-smoke: #f5f5f5;       // refreshing white Background
 
 // Background colors
-$body-background-color: $grey-lt-300;
+$body-background-color: $white-smoke;
 $sidebar-color: $ocean-mist;
 $code-background-color: $ocean-foam;
 $feedback-color: darken($ocean-mist, 3%);
@@ -27,4 +28,4 @@ $search-result-preview-color: $grey-dk-000;
 // Interactive elements
 $link-color: $ocean-deep;
 $btn-primary-color: $ocean-calm;
-$base-button-color: $grey-lt-300;
+$base-button-color: $white-smoke;
