@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
 # Data At Sea
@@ -22,7 +23,7 @@ Data management planning, training resources, and funding guidance for expeditio
 Operational tools, data collection best practices, and controlled vocabularies for shipboard work.
 
 ### Post-Cruise Data
-QAQC standards, repository submission guidance, and metadata enhancement.
+QA/QC standards, repository submission guidance, and metadata enhancement.
 
 ## Contributing
 
