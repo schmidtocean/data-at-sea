@@ -1,14 +1,14 @@
 title: Data at Sea
 description: A community-driven, GitHub Pages-hosted resource aggregate focused on deep ocean science data management across the expedition lifecycle. Built for easy community contribution via Discussion, Issues, and Pull Requests
 
-remote_theme: just-the-docs/just-the-docs
-
+#remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 color_scheme: ocean
 
 url: https://schmidtocean.github.io/data-at-sea
 
-plugins:
- - jeykll-remote-themes
+#plugins:
+# - jeykll-remote-themes
 
 #aux_links:
 #  Template Repository: https://github.com/just-the-docs/just-the-docs-template
