@@ -9,13 +9,14 @@ $ocean-foam: #f0f8fa;        // Pale blue-white
 $coral-accent: #ff6b6b;      // Coral red#
 $coral-soft: #ff8787;        // Lighter coral
 $coral-pale: #ffe0e0;        // Very light coral
-$white-smoke: #f5f5f5;       // refreshing white Background
+$white-smoke: #fafafa;       // refreshing white Background
 $ocean-abyss: #0D262F;       // dark color for text
 
 // Background colors
 $body-background-color: $white-smoke;
 $sidebar-color: $ocean-mist;
-$code-background-color: $ocean-foam;
+$code-background-color: $ocean-light;
+$code-linenumber-color: $ocean-calm
 $feedback-color: darken($ocean-mist, 3%);
 $table-background-color: $white;
 $search-background-color: $white;
