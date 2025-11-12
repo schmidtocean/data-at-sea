@@ -14,3 +14,5 @@ _site/
 .bundle/
 vendor/
 
+# ignore local markdown files from python notebooks
+tools/*/*.md
