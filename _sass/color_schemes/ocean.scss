@@ -10,6 +10,7 @@ $coral-accent: #ff6b6b;      // Coral red#
 $coral-soft: #ff8787;        // Lighter coral
 $coral-pale: #ffe0e0;        // Very light coral
 $white-smoke: #f5f5f5;       // refreshing white Background
+$ocean-abyss: #0D262F;       // dark color for text
 
 // Background colors
 $body-background-color: $white-smoke;
@@ -21,9 +22,9 @@ $search-background-color: $white;
 
 // Text colors
 $body-heading-color: $ocean-deep;
-$body-text-color: $grey-dk-000;
+$body-text-color: $ocean-abyss;
 $nav-child-link-color: $ocean-calm;
-$search-result-preview-color: $grey-dk-000;
+$search-result-preview-color: $ocean-deep;
 
 // Interactive elements
 $link-color: $ocean-deep;
