@@ -1,7 +1,7 @@
 ---
 title: Data Repositories
 layout: default
-nav_order: 7
+nav_order: 6
 ---
 
 # Data Repositories

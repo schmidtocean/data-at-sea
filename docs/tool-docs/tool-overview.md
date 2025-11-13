@@ -1,7 +1,7 @@
 ---
 layout: default
 title : Tools
-nav_order: 6
+nav_order: 5
 has_children: true
 ---
 
@@ -15,7 +15,7 @@ A small set of tools are being developed here and are kept in the tools/ directo
 
 ### Pre-Cruise Planning
 
-- **[wgetBathymetry]({% link docs/tools/wgetBathymetry.md %})** - Download bathymetry data for your cruise area
+- **[wgetBathymetry]({% link docs/tool-docs/wgetBathymetry.md %})** - Download bathymetry data for your cruise area
 
 ## Code Snippets
 
