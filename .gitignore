@@ -16,3 +16,6 @@ vendor/
 
 # ignore local markdown files from python notebooks
 tools/*/*.md
+
+# ignore local Gemfile.lock
+Gemfile.lock
