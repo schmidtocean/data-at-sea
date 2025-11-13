@@ -15,13 +15,9 @@ To contribute, use the Quick Issue Links below or Make a Pull Request:
 
 ## Report an Issue
 
-Help us improve Data At Sea by reporting bugs, requesting features, or suggesting improvements.
+Help us improve Data At Sea by reporting bugs, requesting features, or suggesting improvements. Choose the type of issue you want to report:
 
-## Quick Issue Links
-
-Choose the type of issue you want to report:
-
-## Choose Issue Type
+---
 
 ### 🐛 Bug Report
 Found something that's not working? Report a bug with a tool or the website.
@@ -77,6 +73,8 @@ The form opens with a template that asks you to describe:
 - When you'd use it (which cruise phase)
 - How important it is to your work
 - Your preferred programming language
+
+---
 
 ## Make a Pull Request
 

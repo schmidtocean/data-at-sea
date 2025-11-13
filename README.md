@@ -1,4 +1,4 @@
-# Data At Sea Wiki
+# Data At Sea
 
 A community-driven, GitHub Pages-hosted resource aggregate focused on deep ocean science data management across the expedition lifecycle. Built for easy community contribution via Discussion, Issues, and Pull Requests 
 
@@ -9,9 +9,72 @@ As a community resource, we accept
 * Code snippets to add to our library of useful tools
 * Documentation, changes, and suggestions for the wiki
 
-To contribute, please follow these steps:
+To contribute, use the Quick Issue Links below or Make a Pull Request:
 
-### Making a Pull Request
+### Report an Issue
+
+Help us improve Data At Sea by reporting bugs, requesting features, or suggesting improvements. Choose the type of issue you want to report:
+
+---
+
+#### 🐛 Bug Report
+Found something that's not working? Report a bug with a tool or the website.
+
+<a href="https://github.com/schmidtocean/data-at-sea/issues/new?labels=bug&template=bug_report.md&title=[BUG]%20" 
+   class="btn btn-primary" 
+   target="_blank">
+  Report a Bug →
+</a>
+
+---
+
+#### 📚 Documentation Issue
+Help us improve the documentation - fix typos, clarify instructions, or suggest new content.
+
+<a href="https://github.com/schmidtocean/data-at-sea/issues/new?labels=documentation&template=documentation.md&title=[DOCS]%20" 
+   class="btn btn-primary" 
+   target="_blank">
+  Report Documentation Issue →
+</a>
+
+---
+
+#### 🔬 Request a New Tool
+Need a tool that doesn't exist yet? Want a tool modified to be more useful? Tell us what you need. The form will open with a structured template to help you describe your request.
+
+<a href="https://github.com/schmidtocean/data-at-sea/issues/new?labels=new-tool&title=[TOOL%20REQUEST]%20&body=%23%23%20Tool%20Name%0A%0A%23%23%20Purpose%0AWhat%20should%20this%20tool%20do%3F%0A%0A%23%23%20Input%20Data%0AWhat%20data%20formats%20should%20it%20accept%3F%0A%0A%23%23%20Output%0AWhat%20should%20it%20produce%3F%0A%0A%23%23%20Use%20Case%0ADescribe%20a%20specific%20scenario%20where%20you%20would%20use%20this%20tool.%0A%0A%23%23%20Cruise%20Phase%0A-%20%5B%20%5D%20Pre-cruise%20planning%0A-%20%5B%20%5D%20At-sea%20operations%0A-%20%5B%20%5D%20Post-cruise%20processing%0A%0A%23%23%20Priority%0A-%20%5B%20%5D%20Critical%20-%20Blocking%20my%20work%0A-%20%5B%20%5D%20High%20-%20Very%20important%0A-%20%5B%20%5D%20Medium%20-%20Would%20be%20helpful%0A-%20%5B%20%5D%20Low%20-%20Nice%20to%20have%0A%0A%23%23%20Languages%20Preferred%0A-%20%5B%20%5D%20Python%0A-%20%5B%20%5D%20R%0A-%20%5B%20%5D%20MATLAB%2FOctave%0A-%20%5B%20%5D%20Any%20language%20is%20fine%0A%0A%23%23%20Additional%20Context%0AAdd%20any%20other%20information%2C%20examples%2C%20or%20references." 
+   class="btn btn-primary" 
+   target="_blank">
+  Request a Tool →
+</a>
+
+---
+
+### Issue Guidelines
+
+#### For Bug Reports:
+- Tool name and version
+- Steps to reproduce the problem
+- Expected vs actual behavior
+- Error messages (if any)
+- Your operating system and Python/R/MATLAB version
+
+#### For Documentation Issues:
+- Page URL or section name
+- What's unclear or incorrect
+- Suggested improvement
+
+#### For Tool Requests:
+The form opens with a template that asks you to describe:
+- What the tool should do
+- What data it works with
+- When you'd use it (which cruise phase)
+- How important it is to your work
+- Your preferred programming language
+
+---
+
+### Make a Pull Request
 
 1. **Fork the repository**: Click the "Fork" button at the top right of this repository to create your own copy.
 
@@ -26,7 +89,7 @@ To contribute, please follow these steps:
    git checkout -b your-feature-branch
    ```
 
-4. **Make your changes**: Edit or add content to the wiki. Ensure your changes are clear, accurate, and well-documented.
+4. **Make your changes**: Edit or add content to the wiki. Ensure your changes are clear, accurate, and well-documented. Software tools, notebooks, and snippets should be added to the tools/ directory. Additional documentation or new pages can be added in the docs/ directory.
 
 5. **Commit your changes**: Commit your changes with a descriptive message:
    ```bash
@@ -43,15 +106,11 @@ To contribute, please follow these steps:
 
 8. **Review process**: Wait for maintainers to review your pull request. Be prepared to make revisions based on feedback.
 
-### Help I Don't Understand Pull Requests!
-
-We get it, not everyone is familiar with Git and you probably have incredible skills in other areas that we want to share with the community. If you are not confident in creating a pull request yourself, [open a discussion](https://github.com/schmidtocean/data-at-sea/discussions) with your content and the maintainers will work with you to get it into the community resource.
-
-### Something is Broken
-
-As a community hub, we depend on external tools, links, and libraries, which can change without us knowing. If something breaks we're happy to investigate and update as needed. [Open an issue](https://github.com/schmidtocean/data-at-sea/issues) if something isn't working as expected.
-
 ## Architecture Diagram
+
+Web content hosted on GitHub Pages is included in the root directory (_config.yml, Gemfile) while individual pages are hosted in the docs/ directory as markdown files. Each tool has a separate documentation page in docs/tool-docs/ to host notebooks in the browser. Each tool page includes direct download links to the respective tool. The tools are hosted in the tools/ directory under the root level to maintain separation of code for tools and code for documentation.
+
+If you would like to add or change pages on the Data at Sea webpage, edit or add content in the docs/ folder. If you are a user adding new tools, add them in the tools/ directory, and create a corresponding documentation page in the docs/tool-docs/ directory.
 
 ```
 ┌──────────────────────────────────────┐     ┌──────────────────────────────────────┐
@@ -69,7 +128,7 @@ As a community hub, we depend on external tools, links, and libraries, which can
 * Data Repositories                           │ ├ repositories.md
 * Discussion                                  │ ├ discussion.md
 * Contributing                                │ ├ contributing.md
-                                              │ └ tools/
+                                              │ └ tool-docs/
 * Tools                                       │   ├ tool-overview.md
    + tool 1                                   │   ├ tool1.md
    + tool 2                                   │   └ tool2.md
@@ -83,9 +142,9 @@ As a community hub, we depend on external tools, links, and libraries, which can
                                               │   └ requirements.txt
                                               │
                                               ├ _config.yml
+                                              ├ _templates
                                               ├ README.md
                                               ├ LICENSE
                                               └ Gemfile
 ```
 
-Web content hosted on GitHub Pages is included in the root directory (_config.yml, Gemfile) while individual pages are hosted in the docs/ directory as markdown files. Each tool has a separate documentation page in docs/tools/ to host notebooks in the browser. Each tool page includes direct download links to the respective tool. The tools are hosted in the tools/ directory under the root level to maintain separate of code for tools and code for documentation.
