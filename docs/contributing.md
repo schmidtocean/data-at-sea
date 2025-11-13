@@ -21,51 +21,64 @@ Help us improve Data At Sea by reporting bugs, requesting features, or suggestin
 
 Choose the type of issue you want to report:
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
-  
-<div style="border: 2px solid #d73a49; padding: 20px; border-radius: 8px;">
-  <h3 style="color: #d73a49; margin-top: 0;">🐛 Bug Report</h3>
-  <p>Report a problem with a tool or the website</p>
-  <a href="https://github.com/schmidtocean/data-at-sea/issues/new?labels=bug&template=bug_report.md&title=[BUG]%20" 
-     class="btn btn-outline" 
-     target="_blank">
-    Report Bug →
-  </a>
-</div>
+## Choose Issue Type
 
-<div style="border: 2px solid #0366d6; padding: 20px; border-radius: 8px;">
-  <h3 style="color: #0366d6; margin-top: 0;">💡 Feature Request</h3>
-  <p>Suggest a new tool or feature</p>
-  <a href="https://github.com/schmidtocean/data-at-sea/issues/new?labels=enhancement&template=feature_request.md&title=[FEATURE]%20" 
-     class="btn btn-outline" 
-     target="_blank">
-    Request Feature →
-  </a>
-</div>
+### 🐛 Bug Report
+Found something that's not working? Report a bug with a tool or the website.
 
-<div style="border: 2px solid #28a745; padding: 20px; border-radius: 8px;">
-  <h3 style="color: #28a745; margin-top: 0;">📚 Documentation</h3>
-  <p>Improve or clarify documentation</p>
-  <a href="https://github.com/schmidtocean/data-at-sea/issues/new?labels=documentation&template=documentation.md&title=[DOCS]%20" 
-     class="btn btn-outline" 
-     target="_blank">
-    Suggest Docs Change →
-  </a>
-</div>
+<a href="https://github.com/schmidtocean/data-at-sea/issues/new?labels=bug&template=bug_report.md&title=[BUG]%20" 
+   class="btn btn-primary" 
+   target="_blank">
+  Report a Bug →
+</a>
 
-<div style="border: 2px solid #6f42c1; padding: 20px; border-radius: 8px;">
-  <h3 style="color: #6f42c1; margin-top: 0;">🔬 Tool Request</h3>
-  <p>Request a new analysis tool</p>
-  <a href="https://github.com/schmidtocean/data-at-sea/issues/new?labels=new-tool&title=[TOOL REQUEST]%20&body=%23%23%20Tool%20Name%0A%0A%23%23%20Purpose%0AWhat%20should%20this%20tool%20do%3F%0A%0A%23%23%20Input%20Data%0AWhat%20data%20formats%20should%20it%20accept%3F%0A%0A%23%23%20Output%0AWhat%20should%20it%20produce%3F%0A%0A%23%23%20Phase%0A-%20%5B%20%5D%20Pre-cruise%0A-%20%5B%20%5D%20At-sea%0A-%20%5B%20%5D%20Post-cruise%0A%0A%23%23%20Priority%0A-%20%5B%20%5D%20Critical%0A-%20%5B%20%5D%20Important%0A-%20%5B%20%5D%20Nice%20to%20have" 
-     class="btn btn-outline" 
-     target="_blank">
-    Request Tool →
-  </a>
-</div>
+---
 
-</div>
+### 📚 Documentation Issue
+Help us improve the documentation - fix typos, clarify instructions, or suggest new content.
 
-## Making a Pull Request
+<a href="https://github.com/schmidtocean/data-at-sea/issues/new?labels=documentation&template=documentation.md&title=[DOCS]%20" 
+   class="btn btn-primary" 
+   target="_blank">
+  Report Documentation Issue →
+</a>
+
+---
+
+### 🔬 Request a New Tool
+Need a tool that doesn't exist yet? Want a tool modified to be more useful? Tell us what you need. The form will open with a structured template to help you describe your request.
+
+<a href="https://github.com/schmidtocean/data-at-sea/issues/new?labels=new-tool&title=[TOOL%20REQUEST]%20&body=%23%23%20Tool%20Name%0A%0A%23%23%20Purpose%0AWhat%20should%20this%20tool%20do%3F%0A%0A%23%23%20Input%20Data%0AWhat%20data%20formats%20should%20it%20accept%3F%0A%0A%23%23%20Output%0AWhat%20should%20it%20produce%3F%0A%0A%23%23%20Use%20Case%0ADescribe%20a%20specific%20scenario%20where%20you%20would%20use%20this%20tool.%0A%0A%23%23%20Cruise%20Phase%0A-%20%5B%20%5D%20Pre-cruise%20planning%0A-%20%5B%20%5D%20At-sea%20operations%0A-%20%5B%20%5D%20Post-cruise%20processing%0A%0A%23%23%20Priority%0A-%20%5B%20%5D%20Critical%20-%20Blocking%20my%20work%0A-%20%5B%20%5D%20High%20-%20Very%20important%0A-%20%5B%20%5D%20Medium%20-%20Would%20be%20helpful%0A-%20%5B%20%5D%20Low%20-%20Nice%20to%20have%0A%0A%23%23%20Languages%20Preferred%0A-%20%5B%20%5D%20Python%0A-%20%5B%20%5D%20R%0A-%20%5B%20%5D%20MATLAB%2FOctave%0A-%20%5B%20%5D%20Any%20language%20is%20fine%0A%0A%23%23%20Additional%20Context%0AAdd%20any%20other%20information%2C%20examples%2C%20or%20references." 
+   class="btn btn-primary" 
+   target="_blank">
+  Request a Tool →
+</a>
+
+---
+
+## Issue Guidelines
+
+### For Bug Reports:
+- Tool name and version
+- Steps to reproduce the problem
+- Expected vs actual behavior
+- Error messages (if any)
+- Your operating system and Python/R/MATLAB version
+
+### For Documentation Issues:
+- Page URL or section name
+- What's unclear or incorrect
+- Suggested improvement
+
+### For Tool Requests:
+The form opens with a template that asks you to describe:
+- What the tool should do
+- What data it works with
+- When you'd use it (which cruise phase)
+- How important it is to your work
+- Your preferred programming language
+
+## Make a Pull Request
 
 1. **Fork the repository**: Click the "Fork" button at the top right of this repository to create your own copy.
 
